@@ -1,0 +1,9 @@
+burger=document.querySelector('.burger')
+menu=document.querySelector('.menu')
+home=document.querySelector('.home')
+navbar=document.querySelector('.navbar')
+burger.addEventListener('click',()=>{
+    menu.classList.toggle('v-nav');
+    home.classList.toggle('home-margin');
+    navbar.classList.toggle('h-nav');
+})
