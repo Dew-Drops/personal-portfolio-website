@@ -249,6 +249,12 @@ html{
 .skills-content .column-right .py::before{
  width: 85%;
 }
+.skills-content .column-right .java::before{
+ width: 50%;
+}
+.skills-content .column-right .mysql::before{
+ width: 70%;
+}
 .contact{
     width: 100%;
     display: flex;
